@@ -22,7 +22,11 @@ const Publicacion = sequelize.define('Publicacion', {
         type: DataTypes.DATE,
         allowNull: true,
         defaultValue: sequelize.literal('CURRENT_TIMESTAMP')
-    }
+    },
+    autor: {
+        type: DataTypes.TEXT,
+        allowNull: true,
+    },
 },{
     timestamps: false,
     tableName: 'publicaciones'

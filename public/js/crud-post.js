@@ -40,6 +40,8 @@ export const mostrarDatosPublicaciones = (publicaciones, elemento) => {
                     <h4>${pub.titulo}</h4>
                     <p>${pub.detalle}</p>
                     <p>${pub.fecha_publicacion}</p>
+                    <p>${pub.autor}</p>
+                    
                 </div>
             </section>
         `
